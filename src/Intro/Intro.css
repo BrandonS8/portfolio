@@ -1,0 +1,14 @@
+.intro {
+  height: 90vh;
+  width: 100%;
+  /* padding-bottom: 5vh; */
+}
+.intro h1 {
+  font-size: 10vw;
+  color: #333;
+  font-weight: 100;
+}
+
+.intro h1 span {
+  font-weight: 400;
+}
