@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './App.css'
 import Intro from './Intro/Intro'
 import About from './About/About'
+import Skills from './Skills/Skills'
+import Work from './Work/Work'
 import { ScrollToTopOnMount, SectionsContainer, Section } from 'react-fullpage'
 // https://github.com/subtirelumihail/react-fullpage
 class App extends Component {
@@ -9,8 +11,8 @@ class App extends Component {
     let options = {
       activeClass: 'active',
       sectionClassName: 'section',
-      anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
-      scrollBar: false,
+      anchors: ['home', 'about', 'skills', 'work', 'contact'],
+      scrollBar: true,
       navigation: true,
       verticalAlign: false,
       arrowNavigation: true
@@ -20,10 +22,21 @@ class App extends Component {
     return (
       <div className="App">
         <nav>
-          <h1>BRANDON</h1>
+          <a href="#home">
+            <h1>
+              BRANDON <strong>SEARS</strong>
+            </h1>
+          </a>
+          <div className="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#work">WORK</a>
+            <a href="#contact">CONTACT</a>
+          </div>
         </nav>
         <div>
-          <ScrollToTopOnMount />
+          {/* <ScrollToTopOnMount /> */}
           <SectionsContainer {...options}>
             <Section>
               <Intro />
@@ -31,7 +44,12 @@ class App extends Component {
             <Section>
               <About />
             </Section>
-            <Section>Page 3</Section>
+            <Section>
+              <Skills />
+            </Section>
+            <Section>
+              <Work />
+            </Section>
           </SectionsContainer>
         </div>
       </div>

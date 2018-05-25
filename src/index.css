@@ -136,7 +136,7 @@ table {
 } */
 /* END DEBUG */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
 body,
 html {
   font-family: 'Roboto', sans-serif;

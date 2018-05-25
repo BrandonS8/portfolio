@@ -1,0 +1,21 @@
+.skills {
+  height: 90vh;
+  width: 100%;
+}
+.skill-list {
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+.skills h1 {
+  font-size: 4vw;
+  margin-bottom: 30px;
+}
+.skill {
+  text-align: center;
+  margin: 10px;
+  font-size: 3.5vw;
+}
+.skills h2 {
+  font-size: 1.5vw;
+  margin-top: 20px;
+}

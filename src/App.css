@@ -3,15 +3,41 @@
   width: 100vw;
 }
 
+nav .nav-links .active {
+  background: inherit !important;
+  border-bottom: 1px solid black;
+}
+nav .active {
+  background: inherit !important;
+}
 nav {
   height: 5vh;
   width: 100vw;
   position: fixed;
-  background: blue;
-  padding: 0;
+  padding: 0 10px;
   margin: 0;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2vw;
 }
+nav h1 {
+  font-weight: 300;
+}
+nav h1 strong {
+  font-weight: 500;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 4px;
+}
+.nav-links {
+  display: inline-block;
+  padding: 0 20px;
+}
+
 .Navigation-Anchor {
   background-color: #555 !important;
 }
