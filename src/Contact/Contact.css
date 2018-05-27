@@ -8,6 +8,10 @@
   color: #000;
   margin: 4px;
 }
+
+.contact a:hover {
+  color: lightskyblue;
+}
 .contact h1 {
   font-size: 4vw;
   margin-bottom: 25px;
@@ -22,9 +26,6 @@
   margin-bottom: 8px;
   cursor: pointer;
   user-select: none;
-}
-.copy-button:hover .copy-button p {
-  color: #141519;
 }
 
 .contact-links {

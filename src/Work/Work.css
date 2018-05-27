@@ -33,11 +33,19 @@
   font-size: 4vw;
   border-bottom: 1px solid black;
 }
+
+.small-work a:hover {
+  color: lightskyblue;
+  border-bottom: 1px solid lightskyblue;
+}
 .small-work-name {
   font-size: 6vw !important;
   border: none !important;
 }
-
+.small-work-name:hover {
+  color: initial !important;
+  border: none !important;
+}
 .line {
   font-size: 4vw;
 }

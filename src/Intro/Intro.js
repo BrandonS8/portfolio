@@ -8,6 +8,7 @@ class Intro extends Component {
         <h1>
           Brandon <span>Sears</span>
         </h1>
+        <h2>A creative, user-focused, and passionate Web Developer</h2>
         {/* <img src={require('./me.jpg')} /> */}
       </div>
     )

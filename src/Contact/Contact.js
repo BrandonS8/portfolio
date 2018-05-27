@@ -6,14 +6,39 @@ class Contact extends Component {
   constructor() {
     super()
     this.state = {
-      copyText: 'COPY EMAIL',
+      copyText: 'CLICK HERE TO COPY EMAIL',
       copyTextStyle: {
         color: '#000'
-      }
+      },
+      hover: false
     }
     this.sayCopied = this.sayCopied.bind(this)
+    this.handleAction = this.handleAction.bind(this)
   }
-
+  handleAction() {
+    if (!this.state.hover && this.state.copyTextStyle.color !== 'lightgreen') {
+      this.setState({
+        copyTextStyle: {
+          color: 'lightskyblue'
+        },
+        hover: true
+      })
+    } else {
+      this.state.copyTextStyle.color !== 'lightgreen'
+        ? this.setState({
+            copyTextStyle: {
+              color: '#000'
+            },
+            hover: false
+          })
+        : this.setState({
+            copyTextStyle: {
+              color: 'lightgreen'
+            },
+            hover: false
+          })
+    }
+  }
   sayCopied(e) {
     this.setState({
       copyText: 'COPIED!',
@@ -23,7 +48,7 @@ class Contact extends Component {
     })
     setTimeout(() => {
       this.setState({
-        copyText: 'COPY EMAIL',
+        copyText: 'CLICK HERE TO COPY EMAIL',
         copyTextStyle: {
           color: '#000'
         }
@@ -42,6 +67,8 @@ class Contact extends Component {
           >
             <p
               onClick={this.sayCopied}
+              onMouseEnter={this.handleAction}
+              onMouseLeave={this.handleAction}
               style={this.state.copyTextStyle}
               className="copy-email"
             >

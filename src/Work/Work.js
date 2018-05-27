@@ -7,28 +7,32 @@ class Work extends Component {
     super()
     this.state = {
       small: false,
-      smallClass: 'flex-center-col smaller'
+      smallClass: ''
     }
   }
   componentDidMount() {
     if (this.props.windowW <= 1000) {
       this.setState({
-        small: true
+        small: true,
+        smallClass: 'flex-center-col smaller'
       })
     } else {
       this.setState({
-        false: true
+        false: true,
+        smallClass: ''
       })
     }
   }
   componentWillReceiveProps() {
     if (this.props.windowW <= 1000) {
       this.setState({
-        small: true
+        small: true,
+        smallClass: 'flex-center-col smaller'
       })
     } else {
       this.setState({
-        false: true
+        small: false,
+        smallClass: ''
       })
     }
   }
@@ -50,7 +54,7 @@ class Work extends Component {
                 key={i}
               />
             ) : (
-              <p className="small-work flex-center-col" key={i}>
+              <div className="small-work flex-center-col" key={i}>
                 <a href={item.deployed} className="small-work-name">
                   {item.name}
                 </a>
@@ -60,7 +64,7 @@ class Work extends Component {
                   {item.code ? <span className="line">|</span> : null}
                   {item.code ? <a href={item.code}>CODE</a> : null}
                 </p>
-              </p>
+              </div>
             )
           })}
         </div>

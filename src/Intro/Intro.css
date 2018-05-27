@@ -11,3 +11,8 @@
 .intro h1 span {
   font-weight: 400;
 }
+.intro h2 {
+  font-size: 1.8vw;
+  font-weight: 100;
+  text-transform: uppercase;
+}

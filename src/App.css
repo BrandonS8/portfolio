@@ -79,6 +79,11 @@ nav a {
   padding: 0 20px;
 }
 
+.nav-links a:hover {
+  color: lightskyblue;
+  border-bottom: 1px solid lightskyblue;
+}
+
 .Navigation-Anchor {
   background-color: #555 !important;
 }
