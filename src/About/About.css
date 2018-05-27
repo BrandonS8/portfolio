@@ -3,7 +3,7 @@
   width: 100vw;
 }
 .about img {
-  width: 70%;
+  width: 30vw;
   border-radius: 8%;
   box-shadow: 0px 3px 34px -6px rgba(0, 0, 0, 0.75);
 }
@@ -27,4 +27,13 @@
 .about-right {
   height: 100%;
   padding-right: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-right {
+    display: none;
+  }
+  .about-left p {
+    font-size: 2vw;
+  }
 }

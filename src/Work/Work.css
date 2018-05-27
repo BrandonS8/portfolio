@@ -1,4 +1,52 @@
+.work {
+  height: 90vh;
+  width: 100%;
+}
+.work h1 {
+  text-align: center;
+  font-size: 4vw;
+}
 .work-card {
-  height: 400px;
-  width: 600px;
+  height: 60%;
+  width: 30%;
+  margin: 4px;
+}
+.work-list {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smaller {
+  flex-wrap: wrap;
+  height: 90vh;
+}
+.small-work {
+  width: 100%;
+  text-align: center;
+}
+.small-work a {
+  margin: 7px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 4vw;
+  border-bottom: 1px solid black;
+}
+.small-work-name {
+  font-size: 6vw !important;
+  border: none !important;
+}
+
+.line {
+  font-size: 4vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .small-work a {
+    font-size: 4.5vw;
+  }
+  .small-work-name {
+    font-size: 7vw !important;
+  }
 }

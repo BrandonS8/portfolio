@@ -39,11 +39,15 @@ class WorkCard extends Component {
       >
         <div className="work-card-info flex-center-col" style={infoStyle}>
           <h2>{this.props.title}</h2>
-          <p>A Description</p>
+          <p>{this.props.desc}</p>
           <div className="work-card-buttons flex-center-row">
-            <a href={this.props.deployed}>View Live</a>
+            <a href={this.props.deployed} target="_blank">
+              View Live
+            </a>
             {this.props.github ? (
-              <a href={this.props.github}>View Code</a>
+              <a href={this.props.github} target="_blank">
+                View Code
+              </a>
             ) : null}
           </div>
         </div>

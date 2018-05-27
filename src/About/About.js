@@ -44,7 +44,7 @@ class About extends Component {
           </p>
         </div>
         <div className="about-right flex-center-row">
-          <img src={require('./me.jpg')} />
+          <img src={require('./me.jpg')} alt="Me" />
         </div>
       </div>
     )

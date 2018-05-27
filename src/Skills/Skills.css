@@ -18,4 +18,10 @@
 .skills h2 {
   font-size: 1.5vw;
   margin-top: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 650px) {
+  .skills h2 {
+    font-size: 2.5vw;
+  }
 }

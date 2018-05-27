@@ -39,7 +39,7 @@ class Skills extends Component {
             <p>MongoDB</p>
           </div>
           <div className="skill" style={{ color: '#ddd61c' }}>
-            <i class="fab fa-snapchat-square" />
+            <i className="fab fa-snapchat-square" />
             <p>Lens Studio</p>
           </div>
         </div>

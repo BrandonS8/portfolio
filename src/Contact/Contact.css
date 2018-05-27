@@ -1,0 +1,59 @@
+.contact {
+  height: 90vh;
+  width: 100vw;
+  font-size: 3.3vw;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+  margin: 4px;
+}
+.contact h1 {
+  font-size: 4vw;
+  margin-bottom: 25px;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  font-size: 2.6vw;
+  font-family: 'Abel', sans-serif;
+  padding: 0;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.copy-button:hover .copy-button p {
+  color: #141519;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact a svg {
+  height: 3vw;
+  width: 3vw;
+  margin-right: 5px;
+}
+
+button {
+  text-align: left;
+  margin-left: 7px;
+}
+button svg {
+  height: 3vw;
+  width: 3vw;
+  margin-right: 9px;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    font-size: 4.3vw;
+  }
+  .copy-button {
+    font-size: 3.6vw;
+  }
+}
