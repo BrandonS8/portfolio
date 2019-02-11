@@ -8,17 +8,17 @@ class About extends Component {
           <h1>About Me</h1>
           <p>
             I am a full stack web developer that loves to create things that
-            appeal visually and funcionally. Most of my passion lies with the
-            front-end but I like the ability to create my own app using the full
-            stack.
+            appeal visually and funcionally. Most of my passion lies in the full
+            stack. I've started leaning toward back end development more
+            recently but have more experience in frontend.
           </p>
           <p>
-            I recently graduated from General Assembly's Web Development
-            Immersive Course. In my 12 weeks at General Assembly I learned all
-            the skills you see above and more. This fast paced enviroment was a
-            perfect fit to me because I felt the progress every single day and
-            progress is a big deal to me. I don't like to sit on old methods and
-            mindsets. I prefer moving toward more innovative things.
+            I graduated from General Assembly's Web Development Immersive Course
+            in 2018. In my 12 weeks at General Assembly I learned all the skills
+            you see above and more. This fast paced enviroment was a perfect fit
+            to me because I felt the progress every single day and progress is a
+            big deal to me. I don't like to sit on old methods and mindsets. I
+            prefer moving toward more innovative things.
           </p>
           <p>
             Prior to General Assembly I was just out of my town's vocational
@@ -29,9 +29,9 @@ class About extends Component {
             winner in Cybersecurity.
           </p>
           <p>
-            I love being creative, I have been a freelance graphic designer for
-            nearly 7 years (and yes I'm only 18) and that has led my creativity
-            to creating things for the web. I think being a web developer or any
+            I love being creative, I was a freelance graphic designer for nearly
+            7 years (and yes I'm only 19 now) and that led my creativity to
+            creating things for the web. I think being a web developer or any
             type of software developer is so special in a creative sense because
             so many people get to use what you make and see what you make
             everyday. People appreciate developers because we unlock new worlds
