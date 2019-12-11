@@ -1,0 +1,16 @@
+.learn ul {
+  list-style: disc;
+  max-width: 800px;
+}
+
+.learn li {
+  margin-bottom: 1em;
+}
+
+.learn li b {
+  font-weight: 600;
+}
+
+.learn h1 {
+  margin-bottom: 25px;
+}

@@ -125,10 +125,10 @@ export default [
     ]
   },
   {
-    name: 'Snapchat Lenses',
-    img: 'https://i.imgur.com/GB0ezgw.png',
-    description: `Snapchat made their augmented reality lens creation tools available to the community. The lenses require graphic design, 3D, and JavaScript knowledge. I've got the lens framework down pretty well and have been helping others create their lenses while working on my own cool projects. My favorite lens I made is the stop motion one as it's unlocked a whole new type of content for Snapchat by letting users create a short stop motion film or slideshow of pictures. `,
-    deployed: 'http://freeyourbio.com/brandonsnap',
+    name: 'Augmented Reality',
+    img: 'https://i.imgur.com/NnSEEKq.png',
+    description: `Primarily on Snapchat, I make augmented reality experiences for fun and for brands. A few of my effects have gone viral, with some gaining 80+ million views.`,
+    deployed: 'https://lensstudio.snapchat.com/creator/CWMdl1oOTgu9qjHmFSmrzQ',
     technologies: [
       {
         name: 'JavaScript',

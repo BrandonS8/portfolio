@@ -30,7 +30,7 @@
   margin: 7px;
   text-decoration: none;
   color: inherit;
-  font-size: 4vw;
+  font-size: 3.5vw;
   border-bottom: 1px solid black;
 }
 
@@ -39,7 +39,7 @@
   border-bottom: 1px solid lightskyblue;
 }
 .small-work-name {
-  font-size: 6vw !important;
+  font-size: 5vw !important;
   border: none !important;
 }
 .small-work-name:hover {

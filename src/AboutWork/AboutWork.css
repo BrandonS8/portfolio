@@ -1,0 +1,23 @@
+.about-work {
+  height: 90vh;
+  width: 100vw;
+  padding: 0 10vw;
+  box-sizing: border-box;
+}
+
+.about-work h1 {
+  font-size: 4vw;
+}
+
+.about-work p {
+  text-indent: 30px;
+  font-size: 1.2vw;
+  line-height: normal;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-work p {
+    font-size: 2vw;
+  }
+}
