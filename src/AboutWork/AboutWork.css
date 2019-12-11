@@ -14,6 +14,7 @@
   font-size: 1.2vw;
   line-height: normal;
   margin: 10px;
+  max-width: 800px;
 }
 
 @media only screen and (max-width: 900px) {
