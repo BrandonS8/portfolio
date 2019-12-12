@@ -5,6 +5,8 @@
 
 .learn li {
   margin-bottom: 1em;
+  font-size: 17px;
+  line-height: 1.2em;
 }
 
 .learn li b {
@@ -13,4 +15,10 @@
 
 .learn h1 {
   margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  .learn li {
+    font-size: 15px;
+  }
 }

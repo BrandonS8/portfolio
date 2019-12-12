@@ -14,9 +14,6 @@
   height: 100%;
   padding: 5%;
 }
-.about-left h1 {
-  font-size: 4vw;
-}
 
 .about-left p {
   text-indent: 30px;
@@ -31,10 +28,22 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .about {
+    height: 100vh;
+  }
   .about-right {
     display: none;
   }
   .about-left p {
-    font-size: 2vw;
+    font-size: 14px;
+  }
+
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 }

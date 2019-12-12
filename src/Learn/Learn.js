@@ -28,6 +28,16 @@ class Learn extends Component {
             languages. I've used them some, but haven't really learned them.
             They vary a fair amount from my usual language, Javascript
           </li>
+          <li>
+            <b>Getting paying clients</b>, I've always struggled to pitch new
+            things to clients. Especially since I focus on things most people
+            haven't even heard of.
+          </li>
+          <li>
+            <b>Real Estate</b>, not related to programming. I'm just an
+            entreprenuer at heart and invest a lot of my money. Real Estate is
+            interesting to me for the investment side.
+          </li>
         </ul>
       </div>
     )

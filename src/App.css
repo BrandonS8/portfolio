@@ -114,9 +114,18 @@ nav a {
 .section.fp-section.active {
   background-color: #fff !important;
 }
+
+.section h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 900px) {
   nav {
-    font-size: 2.5vw;
+    font-size: 15px;
+  }
+  .section h1 {
+    font-size: 35px;
   }
 }
 

@@ -36,10 +36,7 @@ class App extends Component {
   }
 
   toggleScroll() {
-    console.log('here')
-    // console.log(this.state.allowScroll)
     if (this.state.allowScroll) {
-      console.log('toggle scroll called')
       this.setState({
         allowScroll: false
       })
@@ -109,12 +106,8 @@ class App extends Component {
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               if (!this.state.allowScroll) {
-                // fullpageApi.setAllowScrolling(true)
-                console.log('true')
                 fullpageApi.setAutoScrolling(true)
               } else {
-                // fullpageApi.setAllowScrolling(false)
-                console.log('false')
                 fullpageApi.setAutoScrolling(false)
               }
             }

@@ -13,7 +13,6 @@
   color: lightskyblue;
 }
 .contact h1 {
-  font-size: 4vw;
   margin-bottom: 25px;
 }
 
@@ -50,11 +49,15 @@ button svg {
   margin-right: 9px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
   .contact {
-    font-size: 4.3vw;
+    font-size: 20px;
+  }
+  .contact p,
+  .contact a {
+    margin-top: 1em;
   }
   .copy-button {
-    font-size: 3.6vw;
+    font-size: 17px;
   }
 }

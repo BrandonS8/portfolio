@@ -24,12 +24,12 @@ class AboutWork extends Component {
           experiences and strategies other people and agencies don't. I like to
           push innovation and new ideas.
         </p>
-        <p>
+        <p className="no-indent">
           I make chat bots using Discord, Reddit, Facebook, Twitter and more
           API's.
         </p>
-        <p>I make augmented reality experiences.</p>
-        <p>
+        <p className="no-indent">I make augmented reality experiences.</p>
+        <p className="no-indent">
           And if I have a crazy idea I can't do. I learn how to do it and it
           happens.
         </p>
